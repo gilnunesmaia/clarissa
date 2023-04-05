@@ -16,3 +16,15 @@
 .font-primary {
     font-family: 'Rokkitt', serif;
 }
+
+.padding-top-after-header {
+    padding-top: 6.4rem;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.center-card {
+    margin-left: 25rem;
+}
