@@ -10,7 +10,16 @@
 
 .font-menu {
     font-family: 'Rokkitt', serif;
-    color: #F20519;
+    color: #d23744;
+}
+
+.font-menu-active {
+    font-family: 'Rokkitt', serif;
+    background-color: #F20519;
+}
+
+.font-menu-active a {
+    color: white;
 }
 
 .font-primary {
@@ -21,10 +30,39 @@
     padding-top: 6.4rem;
 }
 
-.bg-white {
-    background-color: white;
+/* 
+.bg-pink {
+    background-color: #E6C5B6;
+} */
+
+.text-red {
+    color: #e44646;
 }
 
 .center-card {
     margin-left: 25rem;
+}
+
+#font-aboutme {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-card-um {
+    background-color: #EBC5B8;
+}
+
+.bg-card-dois {
+    background-color: #F5D6C9;
+}
+
+.bg-card-tres {
+    background-color: #FDD6BD;
+}
+
+.bg-footer {
+    background-color: #e44646;
+}
+
+.bg-footer a i h6 p {
+    color: white !important;
 }
