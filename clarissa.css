@@ -121,6 +121,18 @@ nav p {
     height: 300px;
 }
 
+.margin-project {
+    margin-top: 4px;
+}
+
+.border-l {
+    border-left: 3px solid white;
+}
+
+.border-r {
+    border-right: 3px solid white;
+}
+
 /* Dispositivos moveis */
 @media only screen and (max-width: 600px) {
 
@@ -135,8 +147,22 @@ nav p {
     }
 
     #s-sect {
-        height:auto;
+        height: auto;
     }
+
+    .margin-project-mobile {
+        margin-top: 4px;
+    }
+
+    .border-l {
+        border-left: 0;
+    }
+
+    .border-r {
+        border-right: 0;
+    }
+
+
 
 
 }
