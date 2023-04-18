@@ -113,6 +113,11 @@ nav p {
     height: 720px;
 }
 
+#s-sect {
+    height: 720px;
+}
+
+
 /* Dispositivos moveis */
 @media only screen and (max-width: 600px) {
 
@@ -124,6 +129,10 @@ nav p {
         height: 40px;
         width: 120px;
         border-radius: 50%;
+    }
+
+    #s-sect {
+        height:auto;
     }
 
 

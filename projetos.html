@@ -22,31 +22,53 @@
 
     <header>
         <nav class="bg-white navbar fixed-top">
-            <div class="container">
-                <div class="container-fluid">
-                    <div class="navbar-brand" href="#">
-                        <a href="home.html">
-                            <img id="logo" src="images/clarissa.logo.jpg" alt="" width="240" height="80"
-                                class="d-inline-block align-text-top">
-                        </a>
-                        <a class="ms-auto" href="home.html">
-                            <i class="fa-light fas fa-house fa-lg" style="color: #e66a6a;"></i>
-                        </a>
-                        <a class="ms-auto" href="projetos.html">
-                            <P class="font-menu">Projetos</P>
-                        </a>
-                        <a class="ms-auto"
-                            href="https://docs.google.com/forms/d/e/1FAIpQLScO7AY-TsFiW7R_fINhdNzPVNFvOlGBJiaQwkpmxR1-jPU9Aw/viewform">
-                            <P class="font-menu">Solicite um Orçamento</P>
-                        </a>
-                        <a class="ms-auto" href="clientes.html">
-                            <P class="font-menu">FeedBack dos Clientes</P>
-                        </a>
-                        <a class="ms-auto" href="sobremim.html">
-                            <P class="font-menu">Sobre mim</P>
-                        </a>
-                    </div>
 
+            <div class="container">
+
+                <!-- LOGO -->
+                <div class="navbar-brand" href="#">
+                    <a href="home.html">
+                        <img id="logo" src="images/clarissa.logo.jpg" alt="" class="d-inline-block align-text-top">
+                    </a>
+                </div>
+
+                <!-- COLLAPSE BUTTON -->
+                <button class="navbar-toggler d-md-none" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- NAV ITENS -->
+                <div class="collapse d-md-block" id="navbarToggleExternalContent">
+                    <ul class="mt-5 m-sm-auto">
+                        <li class="mb-3 mx-3 d-block d-sm-inline-block nav-item">
+                            <a class="ms-auto" href="home.html">
+                                <i class="fa-light fas fa-house fa-xl" style="color: #e66a6a;"></i>
+                            </a>
+                        </li>
+                        <li class="mx-3 d-block d-sm-inline-block nav-item">
+                            <a class="ms-auto" href="projetos.html">
+                                <p class="font-menu">Projetos</p>
+                            </a>
+                        </li>
+                        <li class="mx-3 d-block d-sm-inline-block nav-item">
+                            <a class="ms-auto" href="clientes.html">
+                                <p class="font-menu">FeedBack dos Clientes</p>
+                            </a>
+                        </li>
+                        <li class="mx-3 d-block d-sm-inline-block nav-item">
+                            <a class="ms-auto"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLScO7AY-TsFiW7R_fINhdNzPVNFvOlGBJiaQwkpmxR1-jPU9Aw/viewform">
+                                <p class="font-menu">Solicite um Orçamento</p>
+                            </a>
+                        </li>
+                        <li class="mx-3 d-block d-sm-inline-block nav-item">
+                            <a class="ms-auto" href="sobremim.html">
+                                <p class="font-menu">Sobre mim</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
@@ -54,7 +76,7 @@
     </header>
 
     <!--  -->
-    <section style="height: 720px;" class="padding-top-after-header container d-flex">
+    <section id="s-sect" class="padding-top-after-header container d-flex">
         <div class="row my-auto mx-auto mt-5 col-12">
 
             <div style="height: 400px; width: 400px;" class="mx-auto bg-image hover-zoom">
