@@ -136,6 +136,10 @@ nav p {
 /* Dispositivos moveis */
 @media only screen and (max-width: 600px) {
 
+    #carousel-mobile {
+        padding-top: 4.4rem;
+    }
+
     .section-after-menu {
         height: 900px;
     }
@@ -161,8 +165,5 @@ nav p {
     .border-r {
         border-right: 0;
     }
-
-
-
 
 }
